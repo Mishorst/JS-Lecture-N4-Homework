@@ -36,3 +36,19 @@ function capitalString(str) {
 }
 
 console.log(capitalString("Skillwill"));
+
+// N#3
+
+const arr = [
+  { name: "Lasha", age: 30 },
+  { name: "Luka", age: 25 },
+  { name: "Saba", age: 20 },
+  { name: "Nina", age: 15 },
+];
+
+function sortArr(arr) {
+  arr.sort((a, b) => a.age - b.age);
+  return arr;
+}
+
+console.log(sortArr(arr));
