@@ -27,3 +27,12 @@ console.log(
     "arm"
   )
 );
+
+// N#2
+
+function capitalString(str) {
+  let capital = str.toUpperCase();
+  return capital;
+}
+
+console.log(capitalString("Skillwill"));
